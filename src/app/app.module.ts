@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 
 import { SomarModule } from './somar';
 import { AppRoutingModule } from './app-routing.module';
+import { SubtrairModule } from './subtrair';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { AppRoutingModule } from './app-routing.module';
   imports: [
     BrowserModule,
     SomarModule,
+    SubtrairModule,
     AppRoutingModule
   ],
   providers: [],

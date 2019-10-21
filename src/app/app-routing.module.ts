@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { RouteSomar } from './somar';
+import { RouteSubtrair } from './subtrair';
 
 export const rotas = [
     { path: 'index', pathMatch: 'full', redirectTo: 'localhost:4200' },
-    ...RouteSomar
+    ...RouteSomar,
+    ...RouteSubtrair
 ]
 
 /*
