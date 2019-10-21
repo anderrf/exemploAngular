@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import { SomarModule } from './somar';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { SomarModule } from './somar';
   ],
   imports: [
     BrowserModule,
-    SomarModule
+    SomarModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
