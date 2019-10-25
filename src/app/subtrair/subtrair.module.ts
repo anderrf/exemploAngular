@@ -10,7 +10,7 @@ import { SubtrairComponent } from './components/subtrair';
     CommonModule
   ],
   exports: [
-    SubtrairModule
+    SubtrairComponent
   ]
 })
 export class SubtrairModule { }
